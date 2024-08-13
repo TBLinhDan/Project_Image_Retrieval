@@ -444,7 +444,7 @@ plot_results(query_path, ls_path_score, reverse=True)
 
 
 
-# **III.  Tối ưu hoá quá trình truy vấn hình ảnh sử dụng mô hình CLIP và cơ sở dữ liệu vector**  
+## **III.  Tối ưu hoá quá trình truy vấn hình ảnh sử dụng mô hình CLIP và cơ sở dữ liệu vector**  
 Vì mỗi lần truy vấn đều cần phải sử dụng lại mô hình CLIP, phương pháp này sẽ sử dụng một cơ sở dữ liệu vector (vector database) để quản lý các embedding vector, giúp quá trình truy vấn được tối ưu hơn.
 
 **1. Tải tập dữ liệu ảnh và giải nén**  
