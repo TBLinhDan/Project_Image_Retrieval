@@ -16,7 +16,7 @@ Dự án sẽ giới thiệu các phương pháp từ **cơ bản** đến **nâ
 
 
 
-#**I. Chương Trình Truy Vấn Ảnh Cơ Bản:**  
+## **I. Chương Trình Truy Vấn Ảnh Cơ Bản:**  
 **1. Tải tập dữ liệu ảnh và giải nén**  
 Trên Google Colab, khởi tạo một code cell sử dụng lệnh:  
 ```
@@ -204,7 +204,7 @@ query, ls_path_score = get_correlation_coefficient_score(root_img_path, query_pa
 plot_results(query_path, ls_path_score, reverse=True)
 ```
 
-# **II. Chương Trình truy vấn Hình ảnh (nâng cao)**  
+## **II. Chương Trình truy vấn Hình ảnh (nâng cao)**  
 Sử dụng **Pretrained Deep Learning Model** trích xuất feature vector cho các ảnh để tăng cường khả năng truy xuất hình ảnh chính xác hơn. Khi một hình ảnh truy vấn được đưa vào mô hình, mô hình sẽ tính toán đặc trưng của hình ảnh truy vấn và so sánh chúng với các đặc trưng đã được tính toán trước của những hình ảnh được lưu trữ trên hệ thống. Sự tương đồng giữa các đặc trưng này được sử dụng để xác định các hình ảnh có liên quan nhất, và kết quả là những hình ảnh tương tự nhất với hình ảnh truy vấn được
 trả về cho người dùng.
 
